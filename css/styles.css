@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*
+{
+
+margin: 0;
+padding: 0;
+
+}
+
+.logo img {
+    display: flex;
+    width:220px
+}
+
+header
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra_pesquisa input
+{
+    text-align: center;
+    box-sizing: border-box;
+
+    width: 512px;
+    padding: 12px;
+
+    background-color: white;
+    border-color: black;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.sub-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.sign-in button
+{
+    border-radius: 4px;
+    border: 0;
+    background-color: #FCDE9C;
+    transition: 0.2s;
+    border-radius: 30px;
+    width: 85px;
+    padding: 12px;
+    
+}
+
+.sign-in button:hover, select:hover
+{
+
+    cursor: pointer;
+    background-color: #ffd781;
+}
+
+.background{
+    width: 100%;
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    gap: 90px;
+}
+
+.intro
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.escrita h1
+{
+    margin-top: 5%;
+    /* width: 517px; */
+    /* height: 174px;
+    left: 20%;
+    top: 18%; */
+   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 58px;
+}
+
+span
+{
+    color: #C1292E;
+}
+
+.escrita h2
+{
+    margin-top: 4%;
+    width: 453px;
+    /* height: 38px; */
+    /* left: 20%;
+    top: 39%; */
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 19px;
+
+    color: #565656;
+
+}
+
+.imagem 
+{
+    display: flex;
+    margin: auto;
+    flex: 1;
+    width: 400px;
+    height: 400px;
+    /* left: 55%; */
+    /* top: 17%; */
+}
+
+.botao_m button
+{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    border-radius: 4px;
+    border: 0;
+    background-color: #FCDE9C;
+    transition: 0.2s;
+    border-radius: 30px;
+    width: 130px;
+    padding: 16px;
+    
+}
+
+.botao_r button
+{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+    border-radius: 4px;
+    border: 0;
+    background-color: #FCDE9C;
+    transition: 0.2s;
+    border-radius: 30px;
+
+    width: 170px;
+    padding: 16px;
+    
+    
+}
+
+
+.escrita_receitas h3
+{
+    margin-top: 4%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 58px;
+}
+
+.botoes_mr 
+{  
+    padding-top: 2em;
+    display: flex;
+    width: 175px;
+    /* height: 63px; */
+    margin: 0;
+    /* left: 20%; */
+    /* top: 465px; */
+    gap: 20px;
+}
+
+.botoes_mr button:hover, select:hover
+{
+
+    cursor: pointer;
+    background-color: #ffd781;
+}
+
+.cards_receitas
+{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 45px;
+    
+}
+
+.cards_receitas button:hover, select:hover
+{
+    cursor: pointer;
+    background-color: #FCDE9C;
+}
+
+.background_receitas{
+    width: 100%;
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+}
+
+.cards_receitas button
+{
+    justify-content:space-evenly;
+    display: flex;
+    margin: auto;
+    border: 0;
+    border-radius: 100%;
+}
+
+.cards_receitas img
+{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-radius: 100%;
+}
